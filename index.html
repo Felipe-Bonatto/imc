@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular imc</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/imc.js" defer></script>
+
+</head>
+<body>
+    
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Academia</a>
+        <a href="#">Serviços</a>
+        <a href="#">Saúde</a>
+        <a href="#">Contatos</a>
+    </header>
+
+    <div id="container">
+        <div class="principal">
+            <form>
+                <h1>Calculo Imc</h1>
+                <div class="form-group">
+                    <label>Peso</label>
+                    <input type="text" name="txt_peso" id="peso" placeholder="Digite o peso. ex: 80.2">
+                    <span id="alertPeso"></span>
+                </div>
+                <div class="form-group">
+                    <label>Altura</label>
+                    <input type="text" name="txt_altura" id="altura" placeholder="Digite a altura. ex: 1.75">
+                    <span id="alertAltura"></span>
+                </div>
+                <div class="form-group botao">
+                    <input type="button" id="botao" value="Calcular">
+                </div>
+            </form>
+            <div class="resultado">
+                <h2>Resultado:</h2>
+                <span>IMC:</span> <span id="imc"></span><br>
+                <span>Status:</span> <span id="status"></span>
+            </div> <!-- resultado -->
+        </div> <!-- principal -->
+
+    </div> <!-- container -->
+
+    <footer>🚀🚀 Felipe Bonatto 🚀🚀</footer>
+
+</body>
+</html>

@@ -39,6 +39,7 @@ const errorAlturaLetra = function () {
     altura.style.border = '3px solid #e63636'
     altura.focus()
     requiredAltura.innerText = 'Digite apenas números'
+    altura.value = ''
 }
 
 const errorAlturaVazio = function () {
